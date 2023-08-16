@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback_image"
+        />
+    <item android:id="@+id/themes_menu"
+        android:title="Themes"
+        android:icon="@drawable/theme"/>
+    <item android:id="@+id/about_menu"
+        android:title="About"
+        android:icon="@drawable/aboutbutton"/>
+    <item android:id="@+id/exitt"
+    android:title="Exit"
+    android:icon="@drawable/exit_image"/>
+
+</menu>
