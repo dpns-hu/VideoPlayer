@@ -31,7 +31,7 @@ class VideosFragment : Fragment() {
         binding.videorv.adapter = videoadapter(requireContext(),MainActivity.videoslist)
         binding.totalVideos.text = "Total Videos ${MainActivity.videoslist.size}"
         return view
-
+            //commit
     }
 
 
