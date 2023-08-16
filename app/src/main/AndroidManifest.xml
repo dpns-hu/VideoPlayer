@@ -16,6 +16,11 @@
         android:theme="@style/Theme.VideoPlayer"
         tools:targetApi="31">
         <activity
+            android:name=".PlayerActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.VideoPlayer1"
+            android:configChanges="orientation|screenSize"/>
+        <activity
             android:name=".folderinsidevideos"
             android:exported="false" />
         <activity

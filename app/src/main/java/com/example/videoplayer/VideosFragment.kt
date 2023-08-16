@@ -20,11 +20,6 @@ class VideosFragment : Fragment() {
 
        val view = inflater.inflate(R.layout.fragment_videos, container, false)
         val binding = FragmentVideosBinding.bind(view)
-
-
-
-
-
         binding.videorv.setHasFixedSize(true)
         binding.videorv.setItemViewCacheSize(10)
         binding.videorv.layoutManager = LinearLayoutManager(requireContext())

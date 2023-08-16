@@ -30,7 +30,7 @@ class folderinsidevideos : AppCompatActivity() {
         binding.folderInsideRv
             .setItemViewCacheSize(10)
         binding.folderInsideRv.layoutManager = LinearLayoutManager(this)
-        binding.folderInsideRv.adapter = videoadapter(this, foldervideoslist)
+        binding.folderInsideRv.adapter = videoadapter(this, foldervideoslist,true)
         binding.totalVideosFolder.text = "Total Videos ${foldervideoslist.size}"
     }
 

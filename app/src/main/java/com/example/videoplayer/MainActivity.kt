@@ -85,6 +85,9 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if(requestCode==10){
             if(grantResults[0]==PackageManager.PERMISSION_GRANTED){
+                folderlist = ArrayList()
+                videoslist= getTotalV()
+                fragmentsetter(VideosFragment())
                 Toast.makeText(this,"grangted",Toast.LENGTH_SHORT).show();
             }else{
                 ActivityCompat.requestPermissions(this, arrayOf(WRITE_EXTERNAL_STORAGE),10)
